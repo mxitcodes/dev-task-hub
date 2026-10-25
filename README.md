@@ -4,7 +4,7 @@
 [![Release](https://img.shields.io/badge/release-v1.0.0-blue.svg)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
-> **DevTask Hub** (main production) serves as the primary operational dashboard and CI/CD automation pipeline for agile software delivery.
+> **DevTask Hub** is a modern, responsive Agile task management workspace and DevOps collaboration hub engineered with lightweight vanilla web technologies, automated unit validation, and GitLab CI/CD pipeline integration.
 
 ---
 
