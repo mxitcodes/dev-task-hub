@@ -1,25 +1,21 @@
-# Dependencies
+# Node dependencies
 node_modules/
-package-lock.json
 
-# Build outputs
+# Build output (created by the GitLab CI build job)
 dist/
 build/
-*.tmp
 
-# Logs and environment
+# Logs and local environment
 *.log
 npm-debug.log*
 .env
-.env.local
+.env.*
 
-# Operating System Files
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# IDE & Editor folders
+# Editor / OS
 .vscode/
 .idea/
 *.swp
 *.swo
+.DS_Store
+Thumbs.db
+desktop.ini
