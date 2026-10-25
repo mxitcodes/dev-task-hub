@@ -4,7 +4,7 @@
 [![Release](https://img.shields.io/badge/release-v1.0.0-blue.svg)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
-> **DevTask Hub** (feature/app-ui) provides an interactive glassmorphism Kanban workspace with automated unit validation and pipeline monitoring.
+> **DevTask Hub** is a modern, responsive Agile task management workspace and DevOps collaboration hub engineered with lightweight vanilla web technologies, automated unit validation, and GitLab CI/CD pipeline integration.
 
 ---
 
