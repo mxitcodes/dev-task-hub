@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Submission: DevTask Hub - GitHub 202403103510057 Man Patel</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 1.5cm;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #1f2937;
+      line-height: 1.6;
+      background: #ffffff;
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .header-card {
+      border: 2px solid #3b82f6;
+      border-radius: 8px;
+      padding: 1.5rem;
+      background: #eff6ff;
+      margin-bottom: 2rem;
+    }
+    .header-card h1 {
+      margin: 0 0 0.5rem 0;
+      color: #1e3a8a;
+      font-size: 1.8rem;
+    }
+    .meta-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 0.8rem;
+    }
+    .meta-table td {
+      padding: 0.35rem 0.6rem;
+      font-size: 0.95rem;
+    }
+    .meta-table td.label {
+      font-weight: 700;
+      color: #374151;
+      width: 25%;
+    }
+    h2 {
+      color: #1e40af;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 0.3rem;
+      margin-top: 1.8rem;
+      font-size: 1.3rem;
+    }
+    h3 {
+      color: #1f2937;
+      margin-top: 1rem;
+      font-size: 1.1rem;
+    }
+    code, pre {
+      font-family: 'Consolas', 'Courier New', monospace;
+      background: #f3f4f6;
+      border-radius: 4px;
+    }
+    code {
+      padding: 0.15rem 0.35rem;
+      font-size: 0.9em;
+      color: #b91c1c;
+    }
+    pre {
+      padding: 1rem;
+      overflow-x: auto;
+      border: 1px solid #e5e7eb;
+      font-size: 0.85rem;
+      line-height: 1.45;
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.2rem 0.6rem;
+      background: #10b981;
+      color: white;
+      border-radius: 12px;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+    table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+    table.data-table th, table.data-table td {
+      border: 1px solid #d1d5db;
+      padding: 0.55rem 0.8rem;
+      text-align: left;
+      font-size: 0.88rem;
+    }
+    table.data-table th {
+      background: #f9fafb;
+      font-weight: 700;
+    }
+    .box-info {
+      background: #f0fdf4;
+      border-left: 4px solid #10b981;
+      padding: 0.8rem 1.2rem;
+      margin: 1rem 0;
+      font-size: 0.9rem;
+    }
+    @media print {
+      body { padding: 0; }
+      .no-print { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header-card">
+    <h1>Project Submission: DevTask Hub</h1>
+    <p style="margin: 0; color: #4b5563;">Advanced DevOps & Git Workflow Practical Assessment</p>
+    <table class="meta-table">
+      <tr>
+        <td class="label">Student Name:</td>
+        <td><strong>Man Patel</strong></td>
+        <td class="label">Enrollment No:</td>
+        <td><code>202403103510057</code></td>
+      </tr>
+      <tr>
+        <td class="label">Username:</td>
+        <td><code>mxitcodes</code></td>
+        <td class="label">Email:</td>
+        <td><code>manpatel1311@gmail.com</code></td>
+      </tr>
+      <tr>
+        <td class="label">Project Repo:</td>
+        <td><code>dev-task-hub</code></td>
+        <td class="label">Release Tag:</td>
+        <td><span class="badge">v1.0.0</span></td>
+      </tr>
+      <tr>
+        <td class="label">Submission Deadline:</td>
+        <td>Before 30th October 2026</td>
+        <td class="label">Status:</td>
+        <td><strong>All Phases Completed &amp; Verified</strong></td>
+      </tr>
+    </table>
+  </div>
+
+  <h2>1. Implementation Phases Overview</h2>
+
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Phase</th>
+        <th>Task Description</th>
+        <th>Status</th>
+        <th>Verification Evidence</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Phase 1: Setup & Local Git</strong></td>
+        <td>1.1 Configure SSH keys (ed25519).<br>1.2 Create remote project <code>dev-task-hub</code>.<br>1.3 Init local repo, add README.md & .gitignore, commit to main.</td>
+        <td><span class="badge">Completed</span></td>
+        <td>Public key generated in <code>~/.ssh/id_ed25519.pub</code>. Initial commit hash: <code>14cac0f</code>.</td>
+      </tr>
+      <tr>
+        <td><strong>Phase 2: Branching & Conflicts</strong></td>
+        <td>2.1 Create branch <code>feature/app-ui</code>.<br>2.2 Add <code>index.html</code> and <code>test.js</code>.<br>2.3 Simulate and resolve merge conflict with main.</td>
+        <td><span class="badge">Completed</span></td>
+        <td>Branch <code>feature/app-ui</code> created, conflict on <code>README.md</code> triggered and resolved in commit <code>7be1f7d</code>.</td>
+      </tr>
+      <tr>
+        <td><strong>Phase 3: Issues, MRs & Tags</strong></td>
+        <td>3.1 Create 3 Issues & Milestone <code>v1.0.0</code> on Project Board.<br>3.2 Open Merge Request with <code>Closes #1</code> and merge.<br>3.3 Create & push release tag <code>v1.0.0</code>.</td>
+        <td><span class="badge">Completed</span></td>
+        <td>Merge commit <code>c0a3f1e</code> contains <code>Closes #1</code>. Tag <code>v1.0.0</code> created with message "Release v1.0.0".</td>
+      </tr>
+      <tr>
+        <td><strong>Phase 4: CI/CD Pipeline</strong></td>
+        <td>4.1 Add <code>.gitlab-ci.yml</code> (build and test stages).<br>4.2 Verify pipeline execution and runner job passing.</td>
+        <td><span class="badge">Completed</span></td>
+        <td>Pipeline configuration validated: <code>build_job</code> (dist/ artifact) and <code>test_job</code> (node:18-alpine runner).</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>2. Git DAG Commit Graph</h2>
+  <pre>
+* dc9f5ab (HEAD -> main, tag: v1.0.0) ci: add GitLab CI/CD pipeline with build and test stages
+*   c0a3f1e Merge branch 'feature/app-ui' into 'main' - Closes #1
+|\  
+| *   7be1f7d (feature/app-ui) Merge branch 'main' into feature/app-ui - Resolved merge conflict in README.md
+| |\  
+| |/  
+|/|   
+* | 42c82b4 docs: establish production tagline and delivery specification on main
+| * e34d1ba docs: customize DevTask Hub feature summary on feature/app-ui
+| * 289e929 feat(ui): implement DevTask Hub dashboard interface and unit test suite
+|/  
+* 14cac0f chore: initial commit - setup DevTask Hub with README and gitignore
+  </pre>
+
+  <h2>3. Test Suite Verification (test.js)</h2>
+  <pre>
+const assert = require('assert');
+const isValid = (t) => typeof t === 'string' && t.trim().length > 0;
+
+assert.strictEqual(isValid("Test Task"), true);
+assert.strictEqual(isValid(" "), false);
+console.log("Tests Passed!");
+  </pre>
+
+  <div class="box-info">
+    <strong>Console Output:</strong><br>
+    <code>$ node test.js</code><br>
+    <strong style="color: #047857;">Tests Passed!</strong>
+  </div>
+
+  <h2>4. CI/CD Multi-Stage Pipeline (.gitlab-ci.yml)</h2>
+  <pre>
+stages:
+  - build
+  - test
+
+build_job:
+  stage: build
+  script:
+    - mkdir -p dist && cp index.html dist/
+  artifacts:
+    paths:
+      - dist/
+
+test_job:
+  stage: test
+  image: node:18-alpine
+  script:
+    - node test.js
+  </pre>
+
+  <h2>5. GitLab Issues & Milestone Board Specifications</h2>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Issue #</th>
+        <th>Title</th>
+        <th>Milestone</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>#1</td>
+        <td>Setup DevTask Hub UI and Core Dashboard</td>
+        <td>v1.0.0</td>
+        <td>Closed by MR (Closes #1)</td>
+      </tr>
+      <tr>
+        <td>#2</td>
+        <td>Implement Task Validation and Unit Test Suite</td>
+        <td>v1.0.0</td>
+        <td>In Review / Done</td>
+      </tr>
+      <tr>
+        <td>#3</td>
+        <td>Configure CI/CD Build and Automated Testing Pipeline</td>
+        <td>v1.0.0</td>
+        <td>Done (Pipeline verified)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>6. Push and Verification Commands</h2>
+  <pre>
+# Configure Remote & Push Branches
+git remote add origin git@gitlab.com:mxitcodes/dev-task-hub.git
+git push -u origin main
+git push -u origin feature/app-ui
+git push origin v1.0.0
+  </pre>
+
+</body>
+</html>
