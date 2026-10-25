@@ -1,0 +1,17 @@
+stages:
+  - build
+  - test
+
+build_job:
+  stage: build
+  script:
+    - mkdir -p dist && cp index.html dist/
+  artifacts:
+    paths:
+      - dist/
+
+test_job:
+  stage: test
+  image: node:18-alpine
+  script:
+    - node test.js
